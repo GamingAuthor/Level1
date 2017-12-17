@@ -131,11 +131,13 @@ public class Jeopardy implements ActionListener {
 						askQuestion("Nani?", "omae wa mo shinderu", 800);
 						fourthButton.setText(" ");
 				}else { 
-					//if(buttonPressed.equals(fifthButton)) {
-					//	askQuestion("Hotel?", "Trivago", 1000);
-					//	fifthButton.setText(" ");
+				if(buttonPressed.equals(fifthButton)) {
+					askQuestion("Hotel?", "Trivago", 1000);
+					fifthButton.setText(" ");
 				}
 			}
+			}
+		}
 		}
 		
 			// Call the askQuestion() method
