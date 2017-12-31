@@ -128,7 +128,7 @@ public class Jeopardy implements ActionListener {
 					thirdButton.setText(" ");
 				}else {
 					if(buttonPressed.equals(fourthButton)) {
-						askQuestion("Nani?", "omae wa mo shinderu", 800);
+						askQuestion("Nani?", "Omae wa mo shinderu", 800);
 						fourthButton.setText(" ");
 				}else { 
 				if(buttonPressed.equals(fifthButton)) {
