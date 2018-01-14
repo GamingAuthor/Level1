@@ -2,7 +2,9 @@ int dist;
 int x;
 int y;
 car bmw = new car();
-
+car chevy = new car();
+car acura = new car();
+car lexus = new car();
 void setup(){
   size(500,500);
   x = 250;
@@ -14,8 +16,10 @@ void draw(){
   fill(0,255,0);
   ellipse(x,y,20,20);
   stop();
-  bmw.move();
-  bmw.draw();
+  bmw.display();
+  chevy.display();
+  acura.display();
+  lexus.display();
 
 }
 
@@ -57,16 +61,11 @@ void stop(){
 
 
 class car{
-  int carx=600;
+  int carx=400;
   int carx2=-100;
   int cary=50;
   int siz=100;
   int sped=10;
-  int right=0;
-  void draw(){
-    display();
-    print(carx);
-  }
   void display() 
   {
     fill(0,255,0);
@@ -78,20 +77,15 @@ class car{
     fill(0,255, 255);
     rect(carx, cary+300, siz, 50);
   }
-  void move(){
-    carx-=sped;
-   if(right==0){
+  void moveright(){
+     carx+=25;
     if(carx<=-100){
       carx=600;
-      right++;
-  }}
-  if(right<=1){
+  }
   if(carx>=600){
     carx=-100;
-    right--;
-  }
-  }
-  }
+  }}
+  
   void getX(){
   }
   void getY(){
