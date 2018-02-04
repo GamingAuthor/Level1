@@ -1,6 +1,8 @@
 /12 - Steam Gardens.mp3
 /27 - NDC Festival.mp3
 /BinaryConverter.class
+/Calculator.class
+/CalculatorRunner.class
 /ChuckleClicker.class
 /CutenessTV.class
 /DrumKit.class
@@ -11,6 +13,7 @@
 /Jukebox$Song.class
 /Jukebox.class
 /PhotoQuiz.class
+/PigLatinTranslator.class
 /README.md
 /SeaCreature.class
 /SeaCreatures2.class
@@ -31,6 +34,8 @@
 /s-l226.jpg
 /s-l227.jpg
 /s-l228.jpg
-/PigLatinTranslator.class
-/Calculator.class
-/CalculatorRunner.class
+/Something.class
+/Hat.class
+/HatRunner.class
+/Microwave.class
+/Popcorn.class
